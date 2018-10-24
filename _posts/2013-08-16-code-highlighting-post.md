@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Syntax Highlighting Post
+title: "[code] Syntax Highlighting Post"
 excerpt: "Demo post displaying the various ways of highlighting code in Markdown."
-categories: [code]
+categories: [tutorial]
 modified: 2014-09-14
 comments: true
 ---
