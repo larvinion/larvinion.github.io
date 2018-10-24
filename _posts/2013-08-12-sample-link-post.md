@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[link post] Sample Link Post"
+title: "[Link Post] Sample Link Post"
 excerpt: "Try click on the link icon."
 categories: [tutorial]
 link: http://renyuanz.github.io
