@@ -1,4 +1,4 @@
-- name: leonids
-  descr: "Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone."
+- name: IoT 기술을 활용한 가정용 방범/방재 시스템
+  descr: "라즈베리파이 PiCamera를 활용한 카메라 모듈과 아두이노와 서보모터, 각종 센서를 활용한 가정용 방범/방재 시스템"
   image: pong.png
-  github: https://github.com/renyuanz/leonids
+#  github: https://github.com/renyuanz/leonids
