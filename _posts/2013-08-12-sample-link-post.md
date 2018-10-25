@@ -2,6 +2,7 @@
 layout: post
 title: "[Link Post] Sample Link Post"
 excerpt: "Try click on the link icon."
+tags: [sample post, link post]
 categories: [tutorial]
 link: http://renyuanz.github.io
 share: true

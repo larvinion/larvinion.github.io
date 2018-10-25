@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "[Tutorial] Welcome to Jekyll!"
+tags: [sample post]
 date:   2015-08-18 15:07:19
 comments: true
 ---

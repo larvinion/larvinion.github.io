@@ -2,6 +2,7 @@
 layout: post
 title: "[Paragraph] Testing \"Readability\" with a Bunch of Text"
 excerpt: "A ton of text to test readability."
+tags: [sample post, readability, test]
 categories: [tutorial]
 comments: true
 ---
