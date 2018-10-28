@@ -99,13 +99,13 @@ Make any link standout more when applying the `.btn` class.
 Make any link standout more when applying the `.arrow` class.
 
 {% highlight html %}
-<a href="#" class="arrow arrow-">Direction Arrow</a>
+<div class="arrow arrow-">Direction Arrow</div>
 {% endhighlight %}
 
-<div markdown="0" class="arrow arrow-up">Up Arrow</div>
-<div markdown="0" class="arrow arrow-down">Down Arrow</div>
-<div markdown="0" class="arrow arrow-left">Left Arrow</div>
-<div markdown="0" class="arrow arrow-right">Right Arrow</div>
+<div markdown="0"><div class="arrow arrow-up"></div>Up Arrow</div>
+<div markdown="0"><div class="arrow arrow-down"></div>Down Arrow</div>
+<div markdown="0"><div class="arrow arrow-left"></div>Left Arrow</div>
+<div markdown="0"><div class="arrow arrow-right"></div>Right Arrow</div>
 
 ## Notices
 
