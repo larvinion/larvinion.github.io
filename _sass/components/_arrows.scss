@@ -1,1 +1,63 @@
 
+/* Arrows
+   ========================================================================== */
+
+/************
+ Mixin
+************/
+@mixin arrow_helper($side, $arrowColor) {
+  @if $side == "up" {
+    transform: rotate(-45deg);
+  }
+  @if $side == "down" {
+    transform: rotate(135deg);
+  }
+  @if $side == "left" {
+    transform: rotate(-135deg);
+  }
+  @if $side == "right" {
+    transform: rotate(45deg);
+  }
+  border-color:
+    $arrowColor
+    $arrowColor
+    $white
+    $white;
+}
+
+@mixin arrow($side: "right", $color: $primary) {
+  & {
+  	position: relative;
+  	height: 0px; width: 0px;
+  	border: 12px solid;
+  	border-color:
+  		$primary
+  		$primary
+  		$white
+  		$white;
+  	transform: rotate(45deg);
+    @include arrow_helper($side, $color);
+  }
+
+  &:after {
+  	content: '';
+  	position: absolute;
+  	top: 0px; right: 0px;
+  	display: block;
+  	height: 12px; width: 16px;
+  	background-color: $primary;
+  	transform:
+  		rotate(-45deg)
+  		translate(2px, 1px);
+  }
+}
+
+/************
+ Use
+************/
+.arrow {
+  &.arrow-up {@include arrow('up', $primary)}
+  &.arrow-down {@include arrow('down', $primary)}
+  &.arrow-left {@include arrow('left', $primary)}
+  &.arrow-right {@include arrow('right', $primary)}
+}
