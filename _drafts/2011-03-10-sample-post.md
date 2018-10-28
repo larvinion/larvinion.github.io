@@ -107,7 +107,6 @@ Make any link standout more when applying the `.arrow` class.
 <div markdown="0" class="arrow arrow-left">Left Arrow</div>
 <div markdown="0" class="arrow arrow-right">Right Arrow</div>
 
-
 ## Notices
 
 **Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.

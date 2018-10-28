@@ -93,6 +93,19 @@ Make any link standout more when applying the `.btn` class.
 <div markdown="0"><a href="#" class="btn btn-danger">Danger Button</a></div>
 <div markdown="0"><a href="#" class="btn btn-info">Info Button</a></div>
 
+## Arrows
+
+Make any link standout more when applying the `.arrow` class.
+
+{% highlight html %}
+<a href="#" class="arrow arrow-">Direction Arrow</a>
+{% endhighlight %}
+
+<div markdown="0" class="arrow arrow-up">Up Arrow</div>
+<div markdown="0" class="arrow arrow-down">Down Arrow</div>
+<div markdown="0" class="arrow arrow-left">Left Arrow</div>
+<div markdown="0" class="arrow arrow-right">Right Arrow</div>
+
 ## Notices
 
 **Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
