@@ -1,4 +1,63 @@
-- name: IoT 기술을 활용한 가정용 방범/방재 시스템
+- name: "[2017 Contributhon] Cubrid Manager"
+  descr: "Eclipse RCP 를 사용한 GUI 환경에서 Cubrid 데이터베이스 관리 및 질의 기능을 제공하는 Cubrid 데이터베이스 전용 관리 도구"
+  role: "팀장(Cubrid Manager 분석 및 개발)"
+  stack: "Eclipse Rich Client Platform"
+#  result: ""
+#  image: pong.png
+#  github: https://github.com/larvinion/
+
+- name: "[2017 OpenHackathon] CO BOT"
+  descr: "밀폐공간 및 유독가스 작업 시 질식사고 방지를 위한 일산화탄소 측정/경보 애플리케이션"
+  role: "팀원(IoT 모듈 담당, Android 보조)"
+  stack: "Arduino(Sensor, Bluetooth), Android(Circle Progress View, MPAndroidChart), Codacy"
+#  result: ""
+#  image: pong.png
+#  github: https://github.com/larvinion/
+
+- name: "IoT 기술을 활용한 가정용 방범/방재 시스템"
   descr: "라즈베리파이 PiCamera를 활용한 카메라 모듈과 아두이노와 서보모터, 각종 센서를 활용한 가정용 방범/방재 시스템"
-  image: pong.png
-#  github: https://github.com/renyuanz/leonids
+  role: "팀장(IoT모듈 담당, Andoird 보조)"
+  stack: "아두이노(Servo Motor, 각종 센서 기능, 아두이노-라즈베리파이 통신), Android(Google Cloud Message, 라즈베리파이-Android 통신)"
+  result: "교내 Engineering Fair 장려상 수상, 제13회 WTA 대전 하이테크페어 및 비즈니스 컨퍼런스 장려상 수상"
+#  image: pong.png
+#  github: https://github.com/larvinion/
+
+- name: "[2016 DA 설계공모대전] 고용인력관리시스템"
+  descr: "고용인력의 입사지원부터 퇴사처리까지의 절차 및 고용인력의 전반적인 관리와 관련된 업무에 대한 고용인력관리시스템의 DA 설계"
+  role: "팀원(고용인력관리시스템 데이터모델링(요구사항 분석, 데이터 표준 정의, 논리 DB 설계))"
+  stack: "DA#"
+#  result: ""
+#  image: pong.png
+#  github: https://github.com/larvinion/
+
+- name: "[2016 공개SW 해카톤] IoT Labs"
+  descr: "IoT 개발에 필요한 튜토리얼/통신/DB/DashBoard 등을 공개 SW로 제공하여 IoT 개발자들이 편리하게 개발을 할 수 있도록 돕는 프레임워크"
+  role: "팀원(IoT 모듈 담당)"
+  stack: "라즈베리파이, 샤오미 YeeLight, 아두이노, Travis, Jacoco, FindBugs, JUnit"
+#  result: ""
+#  image: pong.png
+#  github: https://github.com/larvinion/
+
+- name: "[2015 기술표준아이디어공모전] 육아 안전 표준 정보제공 애플리케이션 기획"
+  descr: "기술표준, 안전, 인증 관련 공공 DB를 활용하여 육아 안전 표준 정보를 제공하는 애플리케이션"
+  role: "팀장"
+#  stack: ""
+  result: "우수상 수상"
+#  image: pong.png
+#  github: https://github.com/larvinion/
+
+- name: "[2015 CAC 산학프로젝트] 국방무인항공기 지형촬영 임베디드 Control SW"
+  descr: "아두이노 드론 오픈소스인 Multiwii를 활용한 드론 제작 및 이를 컨트롤 하기 위한 비행 애플리케이션(Android)"
+  role: "팀원(Android 담당, Java 보조)"
+  stack: "아두이노 Multiwii, Android(Google Map V2), Java(JWeb Browser, RxTx 등)"
+  result: "교내 창의작품경진대회 장려상 수상, 프로그램 저작권 2건 취득"
+#  image: pong.png
+#  github: https://github.com/larvinion/
+
+#- name:
+#  descr: ""
+#  role: ""
+#  stack: ""
+#  result: ""
+#  image: pong.png
+#  github: https://github.com/larvinion/
