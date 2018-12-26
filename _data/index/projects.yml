@@ -1,3 +1,11 @@
+- name: "[2018 미니해커톤] webOS OSE 디지털 사이니지"
+  descr: "webOS OSE기반 음성인식 디지털 사이니지(액자) 애플리케이션"
+  role: "팀원(Google Assistant를 활용한 음성인식 기능 개발)"
+  stack: "webOS OSE, Google APIs(Google Assistant), Enact"
+#  result: ""
+#  image: pong.png
+#  github: https://github.com/larvinion/
+
 - name: "[2017 Contributhon] Cubrid Manager"
   descr: "Eclipse RCP 를 사용한 GUI 환경에서 Cubrid 데이터베이스 관리 및 질의 기능을 제공하는 Cubrid 데이터베이스 전용 관리 도구"
   role: "팀장(Cubrid Manager 분석 및 개발)"
