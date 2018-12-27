@@ -15,7 +15,7 @@ comments: true
 
 * 운영체제 종류(Windows & Linux & Mac)
 
-* 32 Bit & 64 Bit 시스템의 특징과 차이점
+* [32 Bit & 64 Bit 시스템의 특징과 차이점](https://larvinion.github.io/articles/2018-12/32bit-64bit-system)
 
 * Little-Endian과 Big-Endian 설명
 
