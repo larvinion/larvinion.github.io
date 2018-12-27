@@ -2,8 +2,8 @@
 layout: post
 title: "Tech Interview"
 excerpt: "Description Tech Interview List post"
-tags: [tech interview, interview]
-categories: [tech interview, junior]
+tags: [tech interview, interview, junior]
+categories: [tech interview]
 comments: true
 ---
 

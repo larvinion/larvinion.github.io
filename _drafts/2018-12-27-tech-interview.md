@@ -2,7 +2,7 @@
 layout: post
 title: "Tech Interview"
 excerpt: "Description Tech Interview List post"
-tags: [tech interview, interview]
+tags: [tech interview, interview, junior]
 author: larvinion
 comments: true
 ---
