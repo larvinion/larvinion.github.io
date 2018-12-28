@@ -17,7 +17,7 @@ comments: true
 
 * [32 Bit & 64 Bit 시스템의 특징과 차이점](https://larvinion.github.io/articles/2018-12/32bit-64bit-system)
 
-* Little-Endian과 Big-Endian 설명
+* [Little-Endian과 Big-Endian 설명](https://larvinion.github.io/articles/2018-12/little-big-endian)
 
 * Process & Thread 특징 및 차이점
 
