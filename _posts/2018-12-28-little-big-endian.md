@@ -15,7 +15,7 @@ comments: true
 
 #### Example
 
-| Header 1 | Little Endian | Big Endian |
+| 32 Bit Integer | Little Endian | Big Endian |
 |:--------|:-------:|--------:|
 | 0x12345678  | 0x78563412  | 0x12345678  |
 | 0x0A0B0C0D  | 0x0D0C0B0A  | 0x0A0B0C0D  |
