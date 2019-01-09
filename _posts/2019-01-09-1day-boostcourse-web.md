@@ -12,17 +12,15 @@ comments: true
 ### 1. 웹 프로그래밍 기초
 
 #### 1) 웹 프로그래밍을 위한 프로그램 언어들
-* 저급 언어
+###### 저급 언어
+* 기계 중심의 언어, 2진수(0과 1)로 이루어진 값 : **기계어(Machine Language)**
+* 숫자로 된 문장 1:1 대응 기호 => 기호로 작성된 문장들을 원래의 숫자로 바꿔야 하는 과정 필요
+* 이러한 과정에 사용되는 도구 : **어셈블러(Assembler)**
+* 기호로 작성된 언어 : **어셈블리어(Assembly Language)**
 
-기계 중심의 언어, 2진수(0과 1)로 이루어진 값 : **기계어(Machine Language)**
-숫자로 된 문장 1:1 대응 기호 => 기호로 작성된 문장들을 원래의 숫자로 바꿔야 하는 과정 필요
-이러한 과정에 사용되는 도구 : **어셈블러(Assembler)**
-기호로 작성된 언어 : **어셈블리어(Assembly Language)**
-
-* 고급 언어
-
-사람 중심의 언어, 사람이 좀 더 이해하기 쉬운 문법
-작성된 소스코드를 번역하는 도구 : **컴파일러(Compiler)**
+###### 고급 언어
+* 사람 중심의 언어, 사람이 좀 더 이해하기 쉬운 문법
+* 작성된 소스코드를 번역하는 도구 : **컴파일러(Compiler)**
 
 | 언어 | 특징 |
 |:--------|:--------|
@@ -59,3 +57,41 @@ comments: true
 
 [^1]: [Github 인기 언어](https://octoverse.github.com/projects#languages)
 [^2]: [티오베](https://www.tiobe.com/tiobe-index)
+
+
+#### 2) 웹의 동작(HTTP 프로토콜 이해)
+##### HTTP(HyperText Transfer Protocol)
+* 서버와 클라이언트가 인터넷상에서 데이터를 주고받기 위한 프로토콜(Protocol)
+* HTTP/2까지 등장한 상태, v1.1에 대해 학습
+* 문서화된 최초의 HTTP버전은 v0.9(1991년)
+
+##### HTTP 작동방식
+* 클라이언트/서버 모델
+* 장점
+   불특정 다수 대상 서비스에 적합
+   클라이언트/서버가 계속 연결된 형태X, 클라이언트/서버 간 최대 연결 수보다 많은 요청과 응답 처리 가능
+* 단점
+   연결을 끊기 때문에, 클라이언트의 이전 상태 알 수 없음(무상태, Stateless)
+   정보 유지를 위해 Cookie와 같은 기술 등장
+
+##### URL(Uniform Resource Locator)
+* 인터넷 상 자원의 위치
+* 특정 웹 서버의 특정 파일에 접근하기 위한 경로 혹은 주소
+* 접근 프로토콜 :// 웹 서버명 / 경로 / 파일 이름
+
+##### Request Message
+* Request Method : GET, PUT, POST, OPTIONS 등
+* URI(Uniform Resource Identifier) : 요청하는 자원의 위치 명시
+* HTTP Protocol Version : 웹 브라우저가 사용하는 프로토콜 버전
+
+##### Request Method 종류
+
+| Method | 특징 |
+|:--------|:--------|
+| GET | 정보를 요청하기 위해 사용 (SELECT) |
+| POST | 정보를 밀어넣기 위해 사용 (INSERT) |
+| PUT | 정보를 업데이트하기 위해 사용 (UPDATE) |
+| DELETE | 정보를 삭제하기 위해 사용(DELETE) |
+| HEAD | (HTTP)헤더 정보만 요청, 해당 자원 존재유무, 서버 문제 확인을 위해 사용 |
+| OPTIONS | 웹서버가 지원하는 메소드의 종류 요청 |
+| TRACE | 클라이언트의 요청을 그대로 반환, ex) echo 서비스로 서버 상태 확인을 위한 목적으로 사용 |
