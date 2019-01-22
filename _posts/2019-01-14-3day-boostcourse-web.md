@@ -75,5 +75,36 @@ comments: true
 ##### Netcraft 전세계 웹 서버 시장 점유율
 ![December 2018 Web Server Survey](https://news.netcraft.com/wp-content/uploads/2018/11/wpid-wss-active-share.png)[^2]
 
+## 7. WAS
+
+### 1) Web Application Server
+##### WAS(Web Application Server)란?
+* Client/Server 구조
+![Client Server Model](https://cphinf.pstatic.net/mooc/20180213_10/151849899068982T3i_PNG/05.png)[^3]
+* DBMS(DataBase Management System)
+   * DBMS의 등장으로 Client에서 직접 접속하여 동작하는 프로그램들이 개발(Fat Client)
+![Database Management System](https://cphinf.pstatic.net/mooc/20180122_74/15166087526093WS9P_PNG/1_1_7_DBMS.PNG)[^4]
+* 미들웨어(MiddleWare)
+   * 위와 같은 문제점을 해결하기 위해 등장
+   * 클라이언트에 많은 비즈니스 로직 -> 클라이언트 관리(배포 등)에 많은 비용 소모
+   * 비즈니스 로직을 클라이언트와 DBMS 사이의 미들웨어 서버에서 동작하도록 함 -> 클라이언트(입/출력만) 담당
+![MiddleWare](https://cphinf.pstatic.net/mooc/20180122_267/1516608805247GN2hK_PNG/1_1_7_.PNG)[^5]
+* WAS(Web Application Server)
+   * 일종의 미들웨어, 클라이언트의 요청 중 동적인 데이터를 제공하기 위한 웹 애플리케이션을 동작하도록 지원
+   * 프로그램 실행 환경과 데이터베이스 접속 기능 제공
+   * 트랜잭션 관리
+   * 비즈니스 로직 수행
+
+##### Web Server vs WAS
+* Web Server : 보통 정적 데이터를 웹 브라우저에 전송
+* WAS : 프로그램의 동적인 결과를 웹 브라우저에 전송
+* 현재 WAS가 제공하는 내장 Web Sever의 정적 데이터 처리 기능으로도 성능상 큰 차이 X
+* But, 간단한 구조의 Web Server와 3-Tier구조로 장애 극복 기능(FailOver)에 유리 -> 무중단 운영에 중요
+![Web Server and WAS](https://cphinf.pstatic.net/mooc/20180122_270/1516606715302CWRJG_PNG/1_1_7_was.PNG)[^6]
+
 [^1]: [defer/async](https://developer.mozilla.org/ko/docs/Web/HTML/Element/script)
 [^2]: [그림 출처:netcraft](https://news.netcraft.com/archives/2018/12/17/december-2018-web-server-survey.html)
+[^3]: [그림 출처:Edwith](https://www.edwith.org/boostcourse-web/lecture/16666/)
+[^4]: [그림 출처:Edwith](https://www.edwith.org/boostcourse-web/lecture/16666/)
+[^5]: [그림 출처:Edwith](https://www.edwith.org/boostcourse-web/lecture/16666/)
+[^6]: [그림 출처:Edwith](https://www.edwith.org/boostcourse-web/lecture/16666/)
