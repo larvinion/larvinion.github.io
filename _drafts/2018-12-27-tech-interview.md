@@ -215,6 +215,15 @@ comments: true
 
 * GC 튜닝 방법
 
+* Java - 동적 메모리 할당 & 해제
+   * 최상위 Object 클래스의 메소드인 **finalize 호출 (소멸자)**
+   * Garbage Collection 실행 요청 메소드 **System.gc()**
+   * 동적 메모리 할당 해제를 원하는 **객체에 null 할당**
+   * **java.lang.ref 패키지** 를 통해 Garbage Collection과 깊은 연동(Root Set의 Reachability 판단)
+      * Soft Reference : GC를 실행했지만, 메모리가 충분하다면 계속 참조
+      * Weak Reference : GC 실행전까지 계속 참조
+      * Phantom Reference : finalize 메소드 호출 이후에도 참조
+
 * Java – Synchronous & Asynchronous 특징과 차이점
 
 * Java – Block & Non-Block 특징과 차이점
